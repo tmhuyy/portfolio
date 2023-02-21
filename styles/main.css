@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --purple-10: #e7cffe;
+  --purple-50: #dcbcfb;
+  --purple-100: #ca97fc;
+  --purple-200: #b779f4;
+  --purple-300: #a85ff0;
+  --purple-400: #8f42dd;
+  --purple-500: #8d34e6;
+  --purple-600: #8021e0;
+  --purple-700: #690fc3;
+  --purple-800: #4e0596;
+
+  --orange-50: hsl(24, 93%, 83%);
+  --orange-100: hsl(24, 91%, 75%);
+  --orange-200: hsl(24, 96%, 68%);
+  --orange-300: hsl(24, 96%, 61%);
+  --orange-400: hsl(24, 96%, 53%);
+  --orange-500: hsl(24, 100%, 50%);
+  --orange-600: hsl(22, 90%, 50%);
+
+  --dark-700: #252525;
+  
+
+    
+}
+
+@keyframes fade-blur-in {
+  from {
+    opacity: 0;
+    filter: blur(1rem);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+  to {
+    opacity: 1;
+  }
+}
