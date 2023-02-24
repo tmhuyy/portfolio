@@ -3,41 +3,36 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Work Sans", sans-serif;
-  background-color: #1f222e;
-  color: white
+  background-color: var(--color-blue-4);
+}
 
-}
 h1 {
-  margin: 40px auto 0 auto;
-  font-size: 5.625rem;
+  /* margin: 20px auto 0 auto; */
+  font-size: 70px;
   font-family: "The Nautigal", cursive;
-  color: #968c83;
+  color: white;
 }
+
 h2 {
-  font-size: 2rem;
+  font-size: 30px;
   /* font-family: "Playfair Display", serif; */
-  color: #968c83;
+  color: white;
   font-weight: normal;
 }
 h3 {
   font-family: "Playfair Display", serif;
   color: #797a7e;
 }
-.introduction {
-  /* background-color: #fcf8e8; */
-  position: relative;
-  padding-top: 135px;
-}
 
 .top-cloud {
   position: absolute;
-  top: 50px;
+  top: 100px;
   right: 200px;
 }
 .bottom-cloud {
   position: absolute;
-  left: 200px;
-  bottom: 300px;
+  left: 100px;
+  bottom: 600px;
 }
 .contact {
   display: inline-block;
@@ -73,8 +68,9 @@ a {
   float: right;
   margin-left: 30px;
 }
+
 hr {
-  background-color: white;
+  background-color: var(--color-blue-4);
   border-style: none;
   border-top-style: dotted;
   border-color: #eaf6f6;
@@ -82,7 +78,7 @@ hr {
   width: 5%;
 }
 .information {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 100px;
   display: inline-block;
   width: 25%;
@@ -105,6 +101,7 @@ hr {
   /* background-color: #fcdec0; */
   padding: 20px;
 }
+
 .contact {
   display: inline-block;
   margin: 50px;
@@ -125,18 +122,39 @@ hr {
 }
 
 .contact:hover {
-  background: #fcd8d4;
-  background-image: -webkit-linear-gradient(top, #fcd8d4, #f39189);
-  background-image: -moz-linear-gradient(top, #fcd8d4, #f39189);
-  background-image: -ms-linear-gradient(top, #fcd8d4, #f39189);
-  background-image: -o-linear-gradient(top, #fcd8d4, #f39189);
-  background-image: linear-gradient(to bottom, #fcd8d4, #f39189);
+  background: var(--color-blue-3);
+  background-image: -webkit-linear-gradient(
+    top,
+    var(--color-blue-3),
+    var(--color-blue-3)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    var(--color-blue-3),
+    var(--color-blue-3)
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    var(--color-blue-3),
+    var(--color-blue-3)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    var(--color-blue-3),
+    var(--color-blue-3)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-blue-3),
+    var(--color-blue-3)
+  );
   text-decoration: none;
 }
 
 p {
   font-weight: bold;
 }
+
 .social-media {
   color: #1a374d;
   margin: 20px;
@@ -145,6 +163,7 @@ p {
 .social-media:hover {
   color: #d06224;
 }
+
 a {
   text-decoration: none;
 }
@@ -155,25 +174,90 @@ a {
 }
 
 .nav-bar {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 30px;
-    background-color: #2d3243;; 
-    
-    margin: 20px 100px
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-color: var(--color-blue-4);
+
+  margin: 20px 100px;
 }
 
 .nav-bar a {
-    color: white;
-    font-weight: 900;
-    font-size: 30px;
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
 }
 
 .nav-bar a:hover {
-  color: #968c83;
+  color: var(--color-gray-1);
+  text-decoration: underline;
   transition-delay: 0.2s;
 }
 
+.resume {
+  display: inline-block;
+  margin: 40px;
+  background: var(--color-blue-2);
+  background-image: -webkit-linear-gradient(
+    top,
+    var(--color-blue-2),
+    var(--color-blue-1)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    var(--color-blue-2),
+    var(--color-blue-1)
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    var(--color-blue-2),
+    var(--color-blue-1)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    var(--color-blue-2),
+    var(--color-blue-1)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-blue-2),
+    var(--color-blue-1)
+  );
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 10px;
+  font-family: Arial;
+  color: white;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
 
-
-
+.resume:hover {
+  background: var(--color-blue-3);
+  background-image: -webkit-linear-gradient(
+    top,
+    var(--color-blue-3),
+    var(--color-blue-2)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    var(--color-blue-3),
+    var(--color-blue-2)
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    var(--color-blue-3),
+    var(--color-blue-2)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    var(--color-blue-3),
+    var(--color-blue-2)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-blue-3),
+    var(--color-blue-2)
+  );
+}

@@ -1046,7 +1046,7 @@ const ShowMore = (function() {
   return {
     init: init,
   }
-})();
+  })();
 
 const Tabs = (function() {
   function init() {
