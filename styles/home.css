@@ -97,9 +97,16 @@ hr {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
 .link-infor {
   /* background-color: #fcdec0; */
   padding: 20px;
+}
+
+.link-infor a {
+  /* background-color: #fcdec0; */
+  color: white;
+  font-size: large;
 }
 
 .contact {
