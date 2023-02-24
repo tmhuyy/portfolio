@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   /* font-family: "Playfair Display", serif; */
   color: white;
   font-weight: normal;
@@ -88,7 +88,7 @@ hr {
   display: inline-block;
 }
 .get-in-touch {
-  margin-top: 100px;
+  /* margin-top: 10px; */
   display: inline-block;
   position: relative;
   width: 40%;
@@ -111,18 +111,38 @@ hr {
 
 .contact {
   display: inline-block;
-  margin: 50px;
-  background: #fcecdd;
-  background-image: -webkit-linear-gradient(top, #fcecdd, #fbc6a4);
-  background-image: -moz-linear-gradient(top, #fcecdd, #fbc6a4);
-  background-image: -ms-linear-gradient(top, #fcecdd, #fbc6a4);
-  background-image: -o-linear-gradient(top, #fcecdd, #fbc6a4);
-  background-image: linear-gradient(to bottom, #fcecdd, #fbc6a4);
+  margin: 20px;
+  background: var(--color-blue-2);
+  background-image: -webkit-linear-gradient(
+    top,
+    var(--color-blue-2),
+    var(--color-blue-1)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    var(--color-blue-2),
+    var(--color-blue-1)
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    var(--color-blue-2),
+    var(--color-blue-1)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    var(--color-blue-2),
+    var(--color-blue-1)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-blue-2),
+    var(--color-blue-1)
+  );
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-  border-radius: 60px;
+  border-radius: 10px;
   font-family: Arial;
-  color: #85603f;
+  color: white;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -133,29 +153,28 @@ hr {
   background-image: -webkit-linear-gradient(
     top,
     var(--color-blue-3),
-    var(--color-blue-3)
+    var(--color-blue-2)
   );
   background-image: -moz-linear-gradient(
     top,
     var(--color-blue-3),
-    var(--color-blue-3)
+    var(--color-blue-2)
   );
   background-image: -ms-linear-gradient(
     top,
     var(--color-blue-3),
-    var(--color-blue-3)
+    var(--color-blue-2)
   );
   background-image: -o-linear-gradient(
     top,
     var(--color-blue-3),
-    var(--color-blue-3)
+    var(--color-blue-2)
   );
   background-image: linear-gradient(
     to bottom,
     var(--color-blue-3),
-    var(--color-blue-3)
+    var(--color-blue-2)
   );
-  text-decoration: none;
 }
 
 p {
@@ -174,9 +193,10 @@ p {
 a {
   text-decoration: none;
 }
+
 .copyright {
   color: grey;
-  font-size: 0.9rem;
+  font-size:  large;
   padding: 30px;
 }
 
@@ -267,4 +287,9 @@ a {
     var(--color-blue-3),
     var(--color-blue-2)
   );
+}
+
+.context {
+  color: white;
+  font-size: 17px;
 }
